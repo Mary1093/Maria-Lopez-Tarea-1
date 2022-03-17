@@ -137,6 +137,11 @@ h4{
     position: relative;
     width: 454px;
 }
+.column{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+}
 #download{
     margin: 3px auto 6px;
 }
@@ -146,7 +151,7 @@ h4{
     border-color: #337cac;
     color: #fff;
     text-shadow: 0 1px rgb(0 0 0 / 30%);
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 p.small-label {
     font-size: 12px;
@@ -155,8 +160,25 @@ p.small-label {
     padding: 0;
     text-align: center;
 }
+p{
+    line-height: 1.65;
+}
 a{
     color: #08c;
     fill: #08c;
     text-decoration: none;
+}
+.payment-icons{
+    padding: 0 1rem;
+    margin: 1rem;
+    flex-direction: row;
+}
+.payment-element{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.text-pagos{
+   font-size: 12px; 
 }
