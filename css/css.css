@@ -33,7 +33,7 @@ body{
     background-color: white;
 
 }
-.main-container{
+.first-container{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -163,7 +163,7 @@ p.small-label {
 p{
     line-height: 1.65;
 }
-a{
+.recomended{
     color: #08c;
     fill: #08c;
     text-decoration: none;
@@ -181,4 +181,138 @@ a{
 }
 .text-pagos{
    font-size: 12px; 
+}
+.grey{
+    background-color:#fafafa ;
+}
+#second{
+    padding: 64px 1em;
+  
+}
+#second::before{
+    background-color: #667885;
+    background-image: url(../images/logomark-white.svg),-webkit-gradient(linear,left top,left bottom,from(rgba(54,137,230,.25)),to(rgba(13,82,191,.75))),url(../images/wallpaper.jpg);
+    background-image: url(../images/logomark-white.svg),-webkit-linear-gradient(top,rgba(54,137,230,.25),rgba(13,82,191,.75)),url(../images/wallpaper.jpg);
+    background-image: url(../images/logomark-white.svg),-o-linear-gradient(top,rgba(54,137,230,.25),rgba(13,82,191,.75)),url(../images/wallpaper.jpg);
+    background-image: url(../images/logomark-white.svg),linear-gradient(to bottom,rgba(54,137,230,.25),rgba(13,82,191,.75)),url(../images/wallpaper.jpg);
+    background-size: contain,cover,cover;
+    background-position: center;
+    border: 1px solid rgba(0,0,0,.35);
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0 0 0 1px rgb(255 255 255 / 5%), inset 0 1px 0 0 rgb(255 255 255 / 45%), inset 0 -1px 0 0 rgb(255 255 255 / 15%), 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 5%), inset 0 1px 0 0 rgb(255 255 255 / 45%), inset 0 -1px 0 0 rgb(255 255 255 / 15%), 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    content: "";
+    display: block;
+    height: 128px;
+    margin: 0 auto;
+    width: 128px;
+}
+.image-second-section{
+    background-size: contain, cover,cover;
+    background-position: center;
+    border-radius: 50%;
+    display: block;
+    height: 128px;
+    margin: 0 auto;
+    width: 128px;
+}
+.grid{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 32px 0;
+    text-align: center;
+    width: auto;
+}
+.grid .two-thirds{
+    display: inline-block;
+    vertical-align: top;
+    width: calc(66% - 48px);
+}
+h2{
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0 0 16px;
+    padding: 0;
+}
+.read-more::after{
+    color: inherit;
+    content: "\2192";
+    display: inline-block;
+    font-style: normal;
+    font-weight: inherit;
+    padding-left: 3px;
+    -webkit-transition: -webkit-transform .15s ease-in-out;
+    transition: -webkit-transform .15s ease-in-out;
+    -o-transition: transform .15s ease-in-out;
+    transition: transform .15s ease-in-out;
+    transition: transform .15s ease-in-out,-webkit-transform .15s ease-in-out;
+}
+#second .featured{
+    display: inline-block;
+    padding: 1rem;
+    vertical-align: top;
+    width: 33.33%;
+}
+#second .featured .featured-image{
+    height: 200px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+#second .featured header h4 {
+    margin-bottom: 1em;
+}
+#second .featured header h4+p {
+    line-height: 1.25;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    opacity: .75;
+}
+#second  .byline {
+    font-size: .8em;
+    line-height: 1.5em;
+    margin: 1.5em auto;
+    max-width: 40rem;
+}
+#second .byline .avatar {
+    background-color: #485a6c;
+    border: none;
+    border-radius: 50%;
+    color: transparent;
+    float: left;
+    height: 48px;
+    margin-right: 0.5em;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+    width: 48px;
+}
+#second .byline .avatar::before {
+    content: "";
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0 0 0 1px rgb(0 0 0 / 35%), inset 0 0 0 2px rgb(255 255 255 / 10%), inset 0 2px 0 0 rgb(255 255 255 / 45%), inset 0 -2px 0 0 rgb(255 255 255 / 15%), 0 1px 3px 0 rgb(0 0 0 / 12%), 0 1px 2px 0 rgb(0 0 0 / 24%);
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 35%), inset 0 0 0 2px rgb(255 255 255 / 10%), inset 0 2px 0 0 rgb(255 255 255 / 45%), inset 0 -2px 0 0 rgb(255 255 255 / 15%), 0 1px 3px 0 rgb(0 0 0 / 12%), 0 1px 2px 0 rgb(0 0 0 / 24%);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+#second .byline .name {
+    font-weight: 600;
+    opacity: .8;
+}
+#second .featured .featured-image {
+    height: 200px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+#second .featured header .byline {
+    max-width: 100%;
+}
+#second  .byline .read-time::before {
+    display: inline-block;
+    margin: 0 0.25em;
+    content: " · ";
+}
+.blog-container{
+    display:flex;
+    flex-direction: row;
 }
