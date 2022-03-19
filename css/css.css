@@ -316,3 +316,25 @@ h2{
     display:flex;
     flex-direction: row;
 }
+.grid .two-thirds {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(66% - 48px);
+}
+.float-left{
+    float: left;
+}
+.float-rigth{
+    float: right;
+}
+.grid .half {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 48px);
+}
+.grid .half {
+    justify-content: space-between;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 48px);
+}
