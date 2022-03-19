@@ -338,3 +338,14 @@ h2{
     vertical-align: top;
     width: calc(50% - 48px);
 }
+#privacy {
+    background-color: #273445;
+    color: #fff;
+    padding: 128px 1em;
+}
+.grid .third {
+    width: calc(33.33% - 32px);
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 16px;
+}
